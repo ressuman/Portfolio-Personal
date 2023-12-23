@@ -38,8 +38,6 @@ function Navbar() {
         <img src="./img/logo.svg" alt="Logoipsum" />
       </div>
       <a
-        href="#"
-        aria-label="toggle"
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
